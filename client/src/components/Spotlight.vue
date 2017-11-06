@@ -30,14 +30,6 @@
   </transition>
 </template>
 
-<style>
-  #spotlight {
-    height: 100%;
-    width: 100%;
-    background-color: yellow;
-  }
-</style>
-
 <style scoped>
   body {
     background-color: lightblue;

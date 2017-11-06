@@ -27,12 +27,10 @@
 <style scoped>
   /* Enter and leave animations can use different */
   /* durations and timing functions.              */
-  .slide-fade-enter-active {
+  .slide-fade-enter-active, .slide-fade-leave-active { 
     transition: all .5s ease;
   }
-  .slide-fade-leave-active {
-    transition: all .5s ease;
-  }
+  
   .slide-fade-enter, .slide-fade-leave-to
   /* .slide-fade-leave-active below version 2.1.8 */ {
     transform: translateX(100%);
@@ -41,6 +39,7 @@
 </style>
 
 <script>
+  console.log(this)
   var projects = {
     project1: {
       title: 'Ariels projekt',
